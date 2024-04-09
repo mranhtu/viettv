@@ -2,11 +2,11 @@
 #EXTM3U Luôn cập nhật kênh ổn định - https://tinyurl.com/VietXoTV - https://hqth.me/vietstvKIPTV
 
 #EXTINF:-1 tvg-id="vtv1hd" group-title="🇻🇳| VTV" group-logo="https://phuhdtv.github.io/thumbs/Groups/VTV.png" tvg-logo="https://i.imgur.com/nfkmvAY.png",VTV1
-https://edge1.laotv.la/live/VTV1SD/index.m3u8
+http://s4.nihontv.net:21585/vtv1/index.m3u8
 #EXTINF:-1 tvg-id="vtv2hd" group-title="🇻🇳| VTV" group-logo="https://phuhdtv.github.io/thumbs/Groups/VTV.png" tvg-logo="https://i.imgur.com/BVwi3K3.png",VTV2
 http://s4.nihontv.net:21585/vtv2/index.m3u8
 #EXTINF:-1 tvg-id="vtv3hd" group-title="🇻🇳| VTV" group-logo="https://phuhdtv.github.io/thumbs/Groups/VTV.png" tvg-logo="https://i.imgur.com/7rLCvgS.png",VTV3
-https://edge1.laotv.la/live/VTV3/index.m3u8
+http://s4.nihontv.net:21585/vtv3/index.m3u8
 #EXTINF:-1 tvg-id="vtv4hd" group-title="🇻🇳| VTV" group-logo="https://phuhdtv.github.io/thumbs/Groups/VTV.png" tvg-logo="https://i.imgur.com/9zVTtsA.png",VTV4
 http://s4.nihontv.net:21585/vtv4/index.m3u8
 #EXTINF:-1 tvg-id="vtv5hd" group-title="🇻🇳| VTV" group-logo="https://phuhdtv.github.io/thumbs/Groups/VTV.png" tvg-logo="https://i.imgur.com/7qPKNFU.png",VTV5
@@ -23,6 +23,14 @@ https://tthd.site/360/6/index.m3u8
 https://tthd.site/360/115/index.m3u8
 #EXTINF:-1 tvg-id="vtv9hd" group-title="🇻🇳| VTV" group-logo="https://phuhdtv.github.io/thumbs/Groups/VTV.png" tvg-logo="https://i.imgur.com/Ex1VkGQ.png",VTV9
 http://s4.nihontv.net:21585/vtv9/index.m3u8
+
+#EXTINF:-1 tvg-id="vtv1hd" group-title="🇻🇳| VTV" group-logo="https://phuhdtv.github.io/thumbs/Groups/VTV.png" tvg-logo="https://i.imgur.com/nfkmvAY.png",VTV1 - Dự phòng
+https://edge1.laotv.la/live/VTV1SD/index.m3u8
+#EXTINF:-1 tvg-id="vtv2hd" group-title="🇻🇳| VTV" group-logo="https://phuhdtv.github.io/thumbs/Groups/VTV.png" tvg-logo="https://i.imgur.com/BVwi3K3.png",VTV2 - Dự phòng
+http://s4.nihontv.net:21585/vtv2/index.m3u8
+#EXTINF:-1 tvg-id="vtv3hd" group-title="🇻🇳| VTV" group-logo="https://phuhdtv.github.io/thumbs/Groups/VTV.png" tvg-logo="https://i.imgur.com/7rLCvgS.png",VTV3 - Dự phòng
+https://edge1.laotv.la/live/VTV3/index.m3u8
+
 
 #EXTINF:-1 tvg-id="vtvcab1hd" group-title="🇻🇳| VTVcab" group-logo="https://tchiphuong.github.io/iptv/images/background/vtvcab.png" tvg-logo="https://i.imgur.com/7GSKm46.png",ON Vie Giải Trí 
 http://s4live.tv1asia.com:21585/vtvcab1/index.m3u8
@@ -934,105 +942,3 @@ http://otv.wotom.net:4433/udp/238.1.1.78:1234
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s41/04.m3u8
 
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://i.imgur.com/fuuXXSo.png" radio="true",VOV1
-http://media.kythuatvov.vn:7001/;stream/
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://i.imgur.com/GDmiZVe.png" radio="true",VOV2
-http://media.kythuatvov.vn:7003/;stream/
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://i.imgur.com/p4JOiUC.png" radio="true",VOV3
-http://media.kythuatvov.vn:7005/;stream/
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://i.imgur.com/CwlPpSR.png" radio="true",VOV4
-https://str.vov.gov.vn/vovlive/vov4.TayNguyen.sdp_aac/playlist.m3u8
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://i.imgur.com/1s4kWpx.png" radio="true",VOV5
-https://stream.vovmedia.vn/vov5
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://i.imgur.com/WthfvZR.png" radio="true",VOV6
-https://stream.vovmedia.vn/vov6
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://i.imgur.com/rllXbD6.png" radio="true",VOV GT Hà Nội
-http://media.kythuatvov.vn:7025/;stream/
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://i.imgur.com/SyQBB9I.png" radio="true",VOV GT Thành Phố Hồ Chí Minh
-http://media.kythuatvov.vn:7023/;stream/
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://i.imgur.com/2uTCy6B.png" radio="true",VOV GT MEKONG
-https://str.vov.gov.vn/vovlive/vovgtMeKong.sdp_aac/playlist.m3u8
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://i.imgur.com/m766imC.png" radio="true",VOV FM 89Mhz
-http://media.kythuatvov.vn:1936/live/VOV89.sdp/playlist.m3u8
-#EXTINF:-1 group-title="📻| Radio" tvg-logo="https://i.imgur.com/jjfSOYm.png" radio="true",VOV ENGLISH SERVICE
-https://stream.vovmedia.vn/vov247
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://i.imgur.com/aJA9Yyb.png" radio="true",VOH1 AM 610 KHz
-https://strm.voh.com.vn/radio/channel2/playlist.m3u8
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://i.imgur.com/hBCG8yD.png" radio="true",VOH2 FM 99.9 MHz
-https://strm.voh.com.vn/radio/channel3/playlist.m3u8
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://i.imgur.com/ITTPjxo.png" radio="true",VOH3 FM 95.6 Mhz
-https://strm.voh.com.vn/radio/channel1/playlist.m3u8
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://i.imgur.com/Kk7NnHq.png" radio="true",VOH4 FM 87.7 MHz
-https://strm.voh.com.vn/radio/channel5/playlist.m3u8
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://i.imgur.com/l3ixRz3.png" radio="true",Xone Radio
-https://multi-playlist-zmp3.zmdcdn.me/Ce5_Z5JFx2c/zhls/playback-realtime/f9a40e7c3239db678228/index.m3u8
-#EXTINF:-1 tvg-logo="https://pic.qtfm.cn/sso/198/1631523942979_3Kp24fIif.jpeg" group-title="📻| Radio" radio="true",CNR-1 News Radio
-http://ngcdn001.cnr.cn/live/zgzs/index.m3u8
-#EXTINF:-1 tvg-logo="http://cnvod.cnr.cn/audio2017/ondemand/img/1100/20191227/1577439539975.png" group-title="📻| Radio" radio="true",CNR-2 Business Radio
-http://ngcdn002.cnr.cn/live/jjzs/index.m3u8
-#EXTINF:-1 group-title="📻| Radio" tvg-logo="http://cnvod.cnr.cn/audio2017/ondemand/img/1100/20191224/1577155745280.png" radio="true",CNR-3 Music Radio
-http://ngcdn003.cnr.cn/live/yyzs/index.m3u8
-#EXTINF:-1 group-title="📻| Radio" tvg-logo="http://cnvod.cnr.cn/audio2017/ondemand/img/1100/20200108/1578449381052.png" radio="true",CNR-4 Golden Radio
-http://ngcdn004.cnr.cn/live/dszs/index.m3u8
-#EXTINF:-1 group-title="📻| Radio" tvg-logo="https://www.lyngsat.com/logo/radio/cc/cnr-5-taiwan-service-1-cn.png" radio="true",CNR-5 Cross-Strait Radio
-http://ngcdn005.cnr.cn/live/zhzs/index.m3u8
-#EXTINF:-1 group-title="📻| Radio" tvg-logo="https://www.lyngsat.com/logo/radio/cc/cnr-6-taiwan-service-2-cn.png" radio="true",CNR-6 Shenzhou Easy Radio
-http://ngcdn006.cnr.cn/live/szzs/index.m3u8
-#EXTINF:-1 tvg-chno="287" tvg-name="CNR7" tvg-logo="http://cnvod.cnr.cn/audio2017/ondemand/img/1100/20190830/1567159925260.png" group-title="📻| Radio" radio="true",CNR-7 Radio The Greater Bay
-http://ngcdn007.cnr.cn/live/hxzs/index.m3u8
-#EXTINF:-1 tvg-chno="287" tvg-name="CNR7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9a/China_National_Radio.svg" group-title="📻| Radio" radio="true",CNR-8 Minorities service
-http://ngcdn009.cnr.cn/live/mzzs/index.m3u8
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/wyzs.png" radio="true" group-title="📻| Radio",CNR-9 Culture Service
-http://ngcdn010.cnr.cn/live/wyzs/index.m3u8
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/lnzs.png" radio="true" group-title="📻| Radio",CNR-10 Elder Radio
-http://ngcdn011.cnr.cn/live/lnzs/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/radio/cc/cnr-11-tibetan-radio-cn.png" radio="true" group-title="📻| Radio",CNR-11 Tibetan Radio
-http://ngcdn012.cnr.cn/live/zygb/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/radio/cc/cnr-12-reading-radio-cn.png" radio="true" group-title="📻| Radio",CNR-12 Reading Radio
-http://ngcdn014.cnr.cn/live/ylgb/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/radio/cc/cnr-13-uyghur-radio-cn.png" radio="true" group-title="📻| Radio",CNR-13 Uyghur Radio
-http://ngcdn013.cnr.cn/live/wygb/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/radio/cc/cnr-14-hong-kong-radio-cn-hk.svg" radio="true" group-title="📻| Radio",CNR-14 Hong Kong Radio
-http://ngcdn008.cnr.cn/live/xgzs/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/radio/cc/cnr-15-traffic-radio-cn.png" radio="true" group-title="📻| Radio",CNR-15 Traffic Radio
-http://ngcdn016.cnr.cn/live/gsgljtgb/index.m3u8
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/zgjtgb.jpg" radio="true" group-title="📻| Radio",CNR-16 Traffic Service
-http://ngcdn016.cnr.cn/live/gsgljtgb/index.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/radio/cc/cnr-17-kazakh-radio-cn.png" radio="true" group-title="📻| Radio",CNR-17 Kazakh Radio
-http://ngcdn025.cnr.cn/live/hygb/index.m3u8
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/ez.png" group-title="📻| Radio" radio="true",CRI EZFM
-http://sk.cri.cn/915.m3u8
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/hitfm.png" group-title="📻| Radio" radio="true",CRI Hit FM
-http://satellitepull.cnr.cn/live/wxhitfm/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://live.cooltv.top/logo/hqzx.png" group-title="📻| Radio" radio="true",CRI News Radio
-http://sk.cri.cn/905.m3u8
-#EXTINF:-1 1 tvg-chno="287" group-title="📻| Radio" tvg-logo="http://cnvod.cnr.cn/audio2017/ondemand/media/1100/20200528/1590662120265.jpg" radio="true",Voice of South China Sea
-http://sk.cri.cn/nhzs.m3u8
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-id="vesti-fm" tvg-logo="https://i.imgur.com/iFbX0ZH.png" radio="true",Радио Вести FM
-http://icecast.vgtrk.cdnvideo.ru/vestifm
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-id="radio-mayak" tvg-logo="https://i.imgur.com/Wr2gxLl.png" radio="true",Радио Маяк
-http://icecast.vgtrk.cdnvideo.ru/mayakfm
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-id="radio-rossii" tvg-logo="https://i.imgur.com/P0In2kv.png" radio="true",Радио России
-http://icecast.vgtrk.cdnvideo.ru/rrzonam
-#EXTINF:-1 tvg-id="no_epg" group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://www.lyngsat.com/logo/radio/ss/sputnik_international_ru.png" radio="true",Радио Sputnik (English)
-http://icecast-rian.cdnvideo.ru/voiceenghi
-#EXTINF:-1 tvg-id="no_epg" group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://www.lyngsat.com/logo/radio/ss/sputnik_international_ru.png" radio="true",Радио Sputnik (Russian)
-http://icecast-rian.cdnvideo.ru/voicerushi
-#EXTINF:-1 tvg-id="no_epg" group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://www.lyngsat.com/logo/radio/ss/sputnik-turkiye-ru-tr.png" radio="true",Радио Sputnik (Turk)
-http://icecast-rian.cdnvideo.ru/voicestm
-#EXTINF:-1 tvg-id="no_epg" group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-logo="https://www.lyngsat.com/logo/radio/rr/radio-sputnik-moldova-ru-md.png" radio="true",Радио Sputnik Moldova
-http://icecast-rian.cdnvideo.ru/voicemda
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-id="no_epg_music" tvg-logo="http://imgur.com/TUKLarg.jpg" radio="true",Новое Радио
-http://stream.newradio.ru/moscow.novoe.aacp
-#EXTINF:-1 tvg-id="retro-fm" group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-id="retro-fm" tvg-logo="https://i.imgur.com/QX43rbX.png" radio="true",Ретро FM
-http://emgregion.hostingradio.ru:8064/moscow.retrofm.mp3
-#EXTINF:-1 tvg-id="radio-shanson" tvg-logo="https://i.imgur.com/lbqM3K2.png" group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" radio="true",Радио Шансон
-http://chanson.hostingradio.ru:8041/chanson256.mp3
-#EXTINF:-1 tvg-id="radio-strana-fm-tv" tvg-logo="https://i.imgur.com/WsPlKJJ.png" group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" radio="true",Радио Страна FM
-http://icecast.stranafm.cdnvideo.ru/stranafm
-#EXTINF:-1 group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" tvg-id="europa-plus-radio" tvg-logo="https://i.imgur.com/PlAiIoT.png" radio="true",Радио Европа Плюс
-https://ep128.hostingradio.ru:8030/ep128
-#EXTINF:-1 tvg-id="avtoradio" tvg-logo="https://i.imgur.com/SPaSFKm.png" group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" radio="true",Авторадио
-http://ic7.101.ru:8000/v3_1
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://i.imgur.com/ViOHdFW.png" group-title="📻| Radio" group-logo="https://i.imgur.com/IPNh4tM.png" radio="true",Радио Орфей
-https://orfeyfm.hostingradio.ru:8034/orfeyfm128.mp3
