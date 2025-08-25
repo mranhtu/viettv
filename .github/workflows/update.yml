@@ -1,0 +1,72 @@
+name: Update
+
+on:
+  watch:
+    types: [started]
+  schedule:
+    - cron: '0 */24 * * *'
+  workflow_dispatch:
+
+env:
+  TZ: Asia/Bangkok
+
+jobs:
+  Update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: GetTime
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M:%S +7')"
+
+    - name: Update
+      run: |
+        # CLONE DATA
+        rm -f IPTV_ALL.m3u && wget https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/vmttv -O IPTV_ALL.m3u
+        # REFACTOR DATA
+        sed -i '/group-title="🇷🇺 Nga và khối SNG"/{N;/http/d;}' IPTV_ALL.m3u
+        sed -i '/group-title="🇺🇦 UKRAINA"/{N;/http/d;}' IPTV_ALL.m3u
+        sed -i '/group-title="Trung Quốc"/{N;/http/d;}' IPTV_ALL.m3u
+        sed -i '/group-title="Hong Kong và Macao"/{N;/http/d;}' IPTV_ALL.m3u
+        sed -i '/group-title="Đài Loan"/{N;/http/d;}' IPTV_ALL.m3u
+        sed -i '/group-title="🇯🇵 Nhật Bản"/{N;/http/d;}' IPTV_ALL.m3u
+        sed -i '/group-title="🇰🇵 Triều Tiên"/{N;/http/d;}' IPTV_ALL.m3u
+        sed -i '/group-title="Radio"/{N;/http/d;}' IPTV_ALL.m3u
+        sed -i '/group-title="🇻🇳 Vietnam Radio"/{N;/http/d;}' IPTV_ALL.m3u
+        sed -i '/group-title="🇬🇧 UK Radio"/{N;/http/d;}' IPTV_ALL.m3u
+        sed -i '/group-title="🇨🇳| Trung Quốc"/{N;/http/d;}' IPTV_ALL.m3u
+        sed -i '/group-title="🇹🇭| Thái Lan"/{N;/http/d;}' IPTV_ALL.m3u
+        sed -i '/group-title="🇰🇭| Campuchia"/{N;/http/d;}' IPTV_ALL.m3u
+        sed -i '/group-title="🇰🇷 Hàn Quốc"/{
+        N
+        N
+        N
+        /.*http.*/d
+        }' IPTV_ALL.m3u
+        sed -i '/radio="true"/{N;d;}' IPTV_ALL.m3u
+        sed -i '/group-title="🛒| Mua sắm"/{N;d;}' IPTV_ALL.m3u
+        sed -i '/Đối ngoại/{N;d;}' IPTV_ALL.m3u
+
+        # INSERT VTV CUSTOM
+        wget https://raw.githubusercontent.com/mranhtu/viettv/master/vtv.m3u -O data.txt
+        tail -n +2 data.txt > data_no_header.txt
+        sed -i '1r data_no_header.txt' IPTV_ALL.m3u
+        rm data_no_header.txt
+
+        # readme.md
+        echo "Auto Update IPTV in ${{ steps.date.outputs.date }} | Shorten link: "> README.md
+
+    - name: Clean
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git checkout --orphan latest_branch
+        git add -A
+        git commit -am "${{ steps.date.outputs.date }}"
+        git branch -D master
+        git branch -m master
+
+    - name: Push
+      run: git push -f origin master
